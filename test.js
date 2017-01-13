@@ -2,11 +2,9 @@ const test = require('tape');
 const m = require('./');
 
 test(t => {
-	const result = m('animation');
-
-	t.is(typeof result, 'object');
-	t.is(result.start, 'animationstart');
-	t.is(result.iteration, 'animationiteration');
-	t.is(result.end, 'animationend');
+	t.is(typeof m, 'object');
+	t.is(m.start, 'animationstart');
+	t.is(m.iteration, 'animationiteration');
+	t.is(m.end, 'animationend');
 	t.end();
 });

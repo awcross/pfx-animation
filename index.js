@@ -1,8 +1,8 @@
 'use strict';
 
-const pfx = require('pfx');
+var pfx = require('pfx');
 
-const prefixedEvents = {
+var prefixedEvents = {
 	WebkitAnimation: {
 		start: 'webkitAnimationStart',
 		iteration: 'webkitAnimationIteration',
@@ -34,4 +34,4 @@ const prefixedEvents = {
 	}
 };
 
-module.exports = () => prefixedEvents[pfx('animation')];
+module.exports = prefixedEvents[pfx('animation')];
