@@ -1,6 +1,6 @@
 {
   "name": "pfx-animation",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Browser prefix helper for animation event",
   "license": "MIT",
   "repository": "awcross/pfx-animation",
